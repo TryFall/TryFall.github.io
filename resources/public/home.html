@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <script type="application/javascript" src='/handler.js'></script>
+</head>
+<body>
+ <style>
+   nav li {
+     display: block;
+     list-style-type: none;
+     float: right;
+     width: 60px;
+     margin-left: 40px;
+   }
+   a:link {
+     color: white
+     margin: 10px;
+     text-decoration: none;
+   }
+div {
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  border-width: 2px;
+  background-color: lightgray;
+  width: 1665px;
+  height: 750px;
+  position: center;
+  margin-top: 30px;
+}
+button {
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+input {
+  width: 1450px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+   }
+ </style>
+      <nav>
+        <ul>
+          <center>TryFall.Repl.Co</center>
+          <li><a href='/home'>Home</a></li>
+          <li><a href='/'>Contact</a></li>
+          <li><a href='/login' id='status'>login</a></li>
+        </ul>
+      </nav>
+  <div id="chatbox">
+    
+  </div>
+  <input type="text" id="content" required><br>
+  <button type="submit" id="send">Send</button> 
+</body>
+</html>
