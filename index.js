@@ -42,7 +42,7 @@ app.get('/:page', (req, res) => {
   } else if (req.params.page === 'login') {
     res.sendFile(path.join(__dirname +'/resources/public/login.html'));
   } else if (req.params.page === 'home') {
-    res.sendFile(path.join(__dirname + '/resources/public/home.html'));
+    res.sendFile(path.join(__dirname + '/resources/public/index.html'));
   } else if (req.params.page === 'support') {
     res.sendFile(path.join(__dirname + '/resources/public/support.html'));
   } else {
